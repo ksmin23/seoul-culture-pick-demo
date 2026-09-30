@@ -98,7 +98,7 @@ API 키는 채팅에 붙여넣지 않고, 생성된 앱이 읽는 위치의 `.en
 
 ## 4. 결과물 확인 방법
 
-완성 예제는 [**`solution` 브랜치의 `solution/` 폴더**](https://github.com/ksmin-oai/seoul-culture-pick-demo/tree/solution/solution)에서 확인합니다. 자신의 결과와 코드가 완전히 같을 필요는 없습니다. [요구사항](./requirements.md)의 동작과 완료 기준을 기준으로 비교하세요.
+완성 예제는 [**`solution` 브랜치의 `solution/` 폴더**](https://github.com/ksmin23/seoul-culture-pick-demo/tree/solution/solution)에서 확인합니다. 자신의 결과와 코드가 완전히 같을 필요는 없습니다. [요구사항](./requirements.md)의 동작과 완료 기준을 기준으로 비교하세요.
 
 ```text
 저장소 루트/
@@ -121,7 +121,7 @@ API 키는 채팅에 붙여넣지 않고, 생성된 앱이 읽는 위치의 `.en
 실습 폴더와 별도의 위치에 저장소를 내려받습니다.
 
 ```bash
-git clone --branch solution https://github.com/ksmin-oai/seoul-culture-pick-demo.git
+git clone --branch solution https://github.com/ksmin23/seoul-culture-pick-demo.git
 cd seoul-culture-pick-demo/solution
 uv sync --frozen
 ```
@@ -141,7 +141,7 @@ uv run streamlit run streamlit_app.py
 - 결과가 없는 조건에서 가짜 전시를 추가하지 않는가?
 - 실제 API 조회가 실패했을 때 명시적으로 오류를 안내하는가?
 
-자동화 테스트는 `solution/`에서 `uv run pytest -q`로 실행합니다. 자세한 설정과 저장본 갱신 방법은 [완성 예제 README](https://github.com/ksmin-oai/seoul-culture-pick-demo/blob/solution/solution/README.md), 단계별 시연은 [시연 대본](https://github.com/ksmin-oai/seoul-culture-pick-demo/blob/solution/solution/docs/demo-script.md)을 참고하세요.
+자동화 테스트는 `solution/`에서 `uv run pytest -q`로 실행합니다. 자세한 설정과 저장본 갱신 방법은 [완성 예제 README](https://github.com/ksmin23/seoul-culture-pick-demo/blob/solution/solution/README.md), 단계별 시연은 [시연 대본](https://github.com/ksmin23/seoul-culture-pick-demo/blob/solution/solution/docs/demo-script.md)을 참고하세요.
 
 ## 5. 참고 자료
 
