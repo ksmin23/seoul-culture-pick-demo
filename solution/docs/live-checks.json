@@ -1,0 +1,195 @@
+[
+  {
+    "case": "defaults",
+    "passed": true,
+    "status": "results",
+    "search": {
+      "request": {
+        "period": "this_weekend",
+        "start_date": null,
+        "end_date": null,
+        "districts": [],
+        "fee": "all",
+        "limit": 3,
+        "keyword": "",
+        "interests": []
+      },
+      "start": "2026-10-03",
+      "end": "2026-10-04",
+      "total_matches": 3,
+      "candidates": [
+        {
+          "id": "df6d5699657dff4c",
+          "title": "2026 제15회 향토문화미술대전",
+          "district": "종로구",
+          "place": "한국미술관 2층 내 전시관",
+          "start": "2026-09-30",
+          "end": "2026-10-05",
+          "fee_status": "free",
+          "fee_text": "",
+          "hours": "프로그램별 상이",
+          "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159435&menuNo=200009",
+          "description": "  "
+        },
+        {
+          "id": "2807c103d54b4e39",
+          "title": "[서울대학교 미술관] 일상의 이미지, 어떻게 말을 거는가",
+          "district": "관악구",
+          "place": "서울대학교미술관 2-3층",
+          "start": "2026-09-11",
+          "end": "2026-11-22",
+          "fee_status": "free",
+          "fee_text": "무료",
+          "hours": "화-일 10:00~18:00 (매주 월요일, 추석 당일(9/25), 개교기념일(10/15) 휴관)",
+          "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159360&menuNo=200009",
+          "description": "  권기수, 권오상, 김화현, 노준, 박그림, 서기환, 손동현, 신학철, 아오키지, 아트놈, 이동기, 이원우, 이윤성, 함도하"
+        },
+        {
+          "id": "ef6b7cc4ca2ddc93",
+          "title": "2026 코리아나미술관 소장품 기획전 [산수/풍경]",
+          "district": "강남구",
+          "place": "코리아나미술관 B1, B2",
+          "start": "2026-09-10",
+          "end": "2026-11-27",
+          "fee_status": "free",
+          "fee_text": "무료",
+          "hours": "월-금 10:30~18:30",
+          "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159453&menuNo=200009",
+          "description": "  "
+        }
+      ],
+      "skipped_rows": 0
+    },
+    "events": [
+      {
+        "stage": "질문 해석 시작",
+        "details": {
+          "기준일": "2026-09-28",
+          "모드": "snapshot",
+          "모델": "gpt-5.6-luna"
+        }
+      },
+      {
+        "stage": "도구 입력",
+        "details": {
+          "period": "this_weekend",
+          "start_date": null,
+          "end_date": null,
+          "districts": [],
+          "fee": "all",
+          "limit": 3,
+          "keyword": "",
+          "interests": []
+        }
+      },
+      {
+        "stage": "필터 결과",
+        "details": {
+          "조회 건수": 5,
+          "조건 일치": 3,
+          "제시 건수": 3,
+          "시작일": "2026-10-03",
+          "종료일": "2026-10-04",
+          "제외된 불완전 행": 0
+        }
+      },
+      {
+        "stage": "답변 검증 완료",
+        "details": {
+          "상태": "results",
+          "카드 수": 3
+        }
+      }
+    ]
+  },
+  {
+    "case": "empty",
+    "passed": true,
+    "status": "results",
+    "search": {
+      "request": {
+        "period": "explicit",
+        "start_date": "2099-01-01",
+        "end_date": "2099-01-02",
+        "districts": [
+          "종로구"
+        ],
+        "fee": "free",
+        "limit": 3,
+        "keyword": "",
+        "interests": []
+      },
+      "start": "2099-01-01",
+      "end": "2099-01-02",
+      "total_matches": 0,
+      "candidates": [],
+      "skipped_rows": 0
+    },
+    "events": [
+      {
+        "stage": "질문 해석 시작",
+        "details": {
+          "기준일": "2026-09-28",
+          "모드": "snapshot",
+          "모델": "gpt-5.6-luna"
+        }
+      },
+      {
+        "stage": "도구 입력",
+        "details": {
+          "period": "explicit",
+          "start_date": "2099-01-01",
+          "end_date": "2099-01-02",
+          "districts": [
+            "종로구"
+          ],
+          "fee": "free",
+          "limit": 3,
+          "keyword": "",
+          "interests": []
+        }
+      },
+      {
+        "stage": "필터 결과",
+        "details": {
+          "조회 건수": 5,
+          "조건 일치": 0,
+          "제시 건수": 0,
+          "시작일": "2099-01-01",
+          "종료일": "2099-01-02",
+          "제외된 불완전 행": 0
+        }
+      },
+      {
+        "stage": "답변 검증 완료",
+        "details": {
+          "상태": "results",
+          "카드 수": 0
+        }
+      }
+    ]
+  },
+  {
+    "case": "unsupported",
+    "passed": true,
+    "status": "clarification",
+    "search": null,
+    "events": [
+      {
+        "stage": "질문 해석 시작",
+        "details": {
+          "기준일": "2026-09-28",
+          "모드": "snapshot",
+          "모델": "gpt-5.6-luna"
+        }
+      },
+      {
+        "stage": "답변 검증 완료",
+        "details": {
+          "상태": "clarification",
+          "카드 수": 0
+        }
+      }
+    ]
+  }
+]

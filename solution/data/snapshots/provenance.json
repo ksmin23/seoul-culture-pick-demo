@@ -1,0 +1,14 @@
+{
+  "source_url": "https://data.seoul.go.kr/dataList/OA-15486/S/1/datasetView.do",
+  "license": "서울특별시 · 공공누리 제1유형 출처표시",
+  "source_file": "seoul-cultural-events-2026-09-28.json",
+  "source_sha256": "bf73061b0bfc7b6dc289d3fe8ecdbdbb826d1e211f925bad6f427506b1e9631b",
+  "source_all_categories": 19547,
+  "source_exhibitions": 3296,
+  "selected_rows": 1000,
+  "selection": "전시/미술만 선택; 신청일, 시작일, 제목 내림차순; 앱 전시 ID 중복 제거 후 상위 limit건",
+  "validation": "날짜 역전 또는 정규화 후 빈 제목은 제외; 원본 파일에서 확인 가능",
+  "date_conversion": "Unix epoch milliseconds → Asia/Seoul; 행사 기간 변경 없음",
+  "collected_at": "2026-09-28T17:11:06.826679+09:00",
+  "reference_date": "2026-09-28"
+}
